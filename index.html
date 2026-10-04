@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0e1220">
+  <title>Portafolio de David Llibri - KrakeDev</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&family=JetBrains+Mono:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="saltar" href="#proyectos">Ir a los proyectos</a>
+
+    <header class="barra">
+    <span class="ruta"><span class="logo" aria-hidden="true">&lt;/&gt;</span> krakedev</span>
+  </header>
+
+  <main class="editor">
+    <section class="hero">
+      <p class="ln comentario" style="--i:0"><span aria-hidden="true">// </span>Autor: David Llibri / nickname</p>
+      <h1 class="ln" style="--i:1">Curso de Desarrollo Web - KrakeDev</h1>
+      <p class="ln comentario intro" style="--i:2">
+        Bienvenido a mi portafolio. En esta página encontrarás los proyectos interactivos
+        y juegos desarrollados durante el curso en KrakeDev.
+      </p>
+    </section>
+
+    <section aria-labelledby="titulo-proyectos">
+      <h2 id="titulo-proyectos" class="ln codigo" aria-label="Mis proyectos">
+        <span class="k">const</span> <span class="f">misProyectos</span> = [
+      </h2>
+
+      <div class="ln buscador">
+        <label for="buscar"><span class="prompt" aria-hidden="true">$</span>filtrar</label>
+        <input id="buscar" type="search" autocomplete="off" spellcheck="false" placeholder="nombre o tipo">
+        <span id="conteo" class="conteo" aria-live="polite"></span>
+      </div>
+
+      <ul id="proyectos" class="proyectos"></ul>
+      <p id="vacio" class="ln comentario vacio" hidden></p>
+      <noscript><p class="ln comentario">// Activa JavaScript para ver la lista de proyectos.</p></noscript>
+
+      <p class="ln codigo">];</p>
+    </section>
+
+    <p class="ln comentario pie">&copy; <span id="anio"></span> David Llibri. Hecho con HTML, CSS y JavaScript.</p>
+  </main>
+  <footer class="estado-barra">
+    
+    <span class="estado"><span id="estado" aria-live="polite"></span></span>
+
+    <span class="meta">portafolio</span>
+    <span class="meta">HTML, JS, CSS</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
