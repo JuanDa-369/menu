@@ -1,0 +1,11 @@
+-----------------PROMPTS DE IA----------------------MENU DE PROYECTOS--------
+
+----+PROMPT DE INTERFAZ VISUAL DE PROYECTOS KRAKEDEV+----
+
++Toma el rol de un programador y crea un intrefaz visual con una tematica de grogramador 
+el interfaz es para guardar los links de mis proyectos entregame los archivos correspondientes 
+por separadpo como HTML,JS,CSS.
+
++Toma el rol de un progrmador y vomos a hacer los siguinete cambios:
+en la parte superior izquierda vamos a dejar solo krakev y en la parte inferior dejamos
+portafolio HTML, JS, CSS 
